@@ -32,6 +32,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'api-sistemasoperativos'
-          slot-name: 'Production'
+          slot-name: 'production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_97AAD7E0F7C548CAA8A8D0F7CAA9BB26 }}
